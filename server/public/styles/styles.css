@@ -6,3 +6,27 @@
     display: block;
 }
 
+body{
+    background-color: slategrey;
+}
+
+#info {
+    margin-top: 25px;
+    background-color: steelblue;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.next{
+     width: 200px;
+     height: 50px;
+     background-color: slategrey;
+    float: right;
+ }
+
+.prev {
+    width: 200px;
+    height: 50px;
+    background-color: slategrey;
+    float: left;
+}

@@ -5,6 +5,7 @@ $(document).ready(function(){
             $.each(data, function(){
                $('#info').append('<div class = "indStudent"></div>'); // appending a div for each student
                var student = $("#info").children().last();
+                student.append("<div class ='nav'><button class = 'prev'>prev</button><button class = 'next'>next</button></div>");
                 student.append("<h1 class = 'name'>Name: " + this.name + "</div>");
                 student.append("<h2 class = 'description'>Description: " + this.desc + "</div>");
                 student.append("<h2 class = 'thanks'>A little thank you: " + this.thanks + "</div>");
